@@ -52,7 +52,7 @@ def main(fn = "mics_calib.csv"):
     # ani = animation.FuncAnimation(fig, animate, frames=len(x), fargs=(K,),
                               # interval=100, blit=True)
                               
-    ani = FuncAnimation(plt.gcf(), animate, fargs = (fn,), interval=250)
+    ani = FuncAnimation(plt.gcf(), animate, fargs = (fn,), interval=500)
     
     
     plt.tight_layout()
